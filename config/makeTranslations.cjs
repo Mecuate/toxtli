@@ -37,7 +37,6 @@ function _extract_names(allFolders) {
     let txt = '\n '
     
     for (const item of _new_arr) {
-        // txt += _names_iterator(allFolders[item])
         txt += `'${item}' | `
     }
 
